@@ -7,6 +7,8 @@ def pycallgraphthis(outfile='pycallgraph.png', tool='dot'):
     Just drop the decorator on any function you'd like to profile and see a
     call graph of.
 
+        from pycallgraph.decorators import pycallgraphthis
+
         @pycallgraphthis(outfile='pycallgraph.png')
         def my_method():
             ...
