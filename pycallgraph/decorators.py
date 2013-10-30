@@ -1,5 +1,5 @@
-from pycallgraph import PyCallGraph
-from pycallgraph.output.graphviz import GraphvizOutput
+from .pycallgraph import PyCallGraph
+from .output.graphviz import GraphvizOutput
 
 
 def pycallgraphthis(outfile='pycallgraph.png', tool='dot'):
